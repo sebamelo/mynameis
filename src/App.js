@@ -1,6 +1,6 @@
 import React from 'react';
 
-import mynameis from './components/mynameis';
+import Mynameis from './components/Mynameis';
 import logo from './logo.svg';
 import './App.css';
 
@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <mynameis title = {"seba"}/>
+        <Mynameis title = {"seba"}/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.

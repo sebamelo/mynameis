@@ -1,10 +1,10 @@
 import React from 'react';
 
 
-const Title = ({ title }) => (
+const Mynameis = ({ title }) => (
     
         <div>
-            <h2 className='title-content desktop'>
+            <h2>
                 {title}
             </h2>
            
@@ -15,12 +15,12 @@ const Title = ({ title }) => (
     
 )
 
-Title.displayName = 'Title';
+Mynameis.displayName = 'Mynameis';
 
 
 
-Title.defaultProps = {
+Mynameis.defaultProps = {
     title: '',
 }
 
-export default Title;
+export default Mynameis;
