@@ -1,17 +1,19 @@
 import React from 'react';
+import TypeLoop from './TypeLoop';
+import Typing from './Typing';
 
 
 const Mynameis = ({ title }) => (
-    
-        <div>
-            <h2>
-                {title}
-            </h2>
-           
-            <style jsx global>{`
-                
-            `}</style>
-        </div>
+    <div className="mynameis-container">
+        <h2>
+            buenas, soy {title}
+        </h2>
+        <style jsx>{`
+            .mynameis-container{
+                display:flex;
+            }
+        `}</style>
+    </div>
     
 )
 

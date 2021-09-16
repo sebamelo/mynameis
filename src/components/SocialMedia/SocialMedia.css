@@ -1,0 +1,8 @@
+.social-container{
+    margin-top:20px
+}
+.social-icon{
+    color: white;
+    z-index: 1;
+    margin: 0 8px;
+}
