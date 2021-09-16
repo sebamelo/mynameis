@@ -3,7 +3,6 @@ const Header = ({}) => {
   
   return (
     <div>
-        soy un header 
     </div>
   );
 };

@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import Typed from 'react-typed';
+
+import './TypeLoop.css'
  
 export default class TypeLoop extends Component {
   
@@ -22,6 +24,7 @@ export default class TypeLoop extends Component {
           strings={['Hi! my name is Seba and i ']}
           typeSpeed={60}
           showCursor={false}
+          className="typed-text"
         />
         <Typed
           strings={[
@@ -31,6 +34,7 @@ export default class TypeLoop extends Component {
           typeSpeed={60}
           backSpeed={50}
           startDelay={this.state.startDelay}
+          className="typed-text"
           loop
         />
           

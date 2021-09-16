@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import ProfileImgs from '../ProfileImg/ProfileImg';
 import SocialMedia from '../SocialMedia/SocialMedia';
-import TypeLoop from '../TypeLoop';
+import TypeLoop from '../TypeLoop/TypeLoop';
 
 import './MainProfile.css'
  
