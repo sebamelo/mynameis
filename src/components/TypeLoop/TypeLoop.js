@@ -7,30 +7,31 @@ export default class TypeLoop extends Component {
   
   constructor(props){
     super(props)
-    this.state = {startDelay : 2400}
+    this.state = {startDelay : 2100}
     this.makeTimer()
   }
 
   makeTimer(){
     setInterval(() => {
         this.setState({startDelay: 0})
-    }, 2400)
+    }, 2500)
   }
   
   render() {
     return (
-      <div>
+      <div className="type-loop-wrapper">
         <Typed
-          strings={['Hi! my name is Seba and i ']}
+        // recive array
+          strings={this.props.mynameis}
           typeSpeed={60}
           showCursor={false}
           className="typed-text"
         />
         <Typed
           strings={[
-            "'m web developer",
-            "'m web designer",
-            "'m freelancer"]}
+            "'m a web developer",
+            "'m a web designer",
+            "'m a freelancer"]}
           typeSpeed={60}
           backSpeed={50}
           startDelay={this.state.startDelay}

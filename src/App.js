@@ -6,15 +6,37 @@ import Layout from './components/layout/Layout';
 import MainProfile from './components/MainProfile/MainProfile';
 import ProfileImgs from './components/ProfileImg/ProfileImg';
 
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
 const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Layout></Layout>
-        <MainProfile/>
-        
-      </header>
-    </div>
+    <Router>
+        <Switch>
+            <Route path="/meme">
+                <div className="App">
+                    <header className="App-header">
+                        <Layout/>
+                        <MainProfile image={'/profileBlueTshirt.png'} profileImgClassname={'profile-img meme-img'}/>
+                    </header>
+                </div>
+            </Route>
+            <Route path="/">
+                <div className="App">
+                    <header className="App-header">
+                        <Layout/>
+                        <MainProfile image={'/profileBlueTshirt.png'} profileImgClassname={'profile-img'}/>
+                    </header>
+                </div>
+            </Route>
+            
+        </Switch>
+    </Router>
+    
   );
 }
 

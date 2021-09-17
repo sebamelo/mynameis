@@ -1,5 +1,9 @@
-.profileImg{
+.profile-img{
     border-radius: 50%;
     width: 150px;
+}
+
+.meme-img{
+    width: 300px;
 }
   

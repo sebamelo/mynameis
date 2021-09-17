@@ -1,3 +1,13 @@
 .typed-text{
     font-size: 24px;
 }
+
+@media (max-width: 700px){
+    .type-loop-wrapper{
+        width: 280px;
+        height: 70px;
+        margin-left: 14px;
+    }
+    
+}
+
