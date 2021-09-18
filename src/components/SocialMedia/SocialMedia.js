@@ -16,22 +16,22 @@ import './SocialMedia.css'
 export default function SocialMedia() {
     return (
       <div class="social-container">
-        <a href="" className="social-icon">
+        <a href="https://www.instagram.com/seba.melo/" className="social-icon" target='_blank'>
             <FontAwesomeIcon icon={faInstagram} size="2x" />
         </a>
-        <a href="" className="social-icon">
+        <a href="https://github.com/sebamelo" className="social-icon" target='_blank'>
             <FontAwesomeIcon icon={faGithub} size="2x" />
         </a>
-        <a href="" className="social-icon">
+        <a href="https://twitter.com/SebaaMelo" className="social-icon" target='_blank'>
             <FontAwesomeIcon icon={faTwitter} size="2x" />
         </a>
-        <a href="" className="social-icon">
+        {/* <a href="" className="social-icon">
             <FontAwesomeIcon icon={faFacebook} size="2x" />
-        </a>
-        <a href="" className="social-icon">
+        </a> */}
+        <a href="https://discord.gg/dtYp6swk" className="social-icon" target='_blank'>
             <FontAwesomeIcon icon={faDiscord} size="2x" />
         </a>
-        <a href="" className="social-icon">
+        <a href="https://www.youtube.com/channel/UCHdW8pAUYVxzed6ea2LK4fA" className="social-icon" target='_blank'>
             <FontAwesomeIcon icon={faYoutube} size="2x" />
         </a>
 
